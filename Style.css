@@ -111,6 +111,10 @@
     white-space: nowrap;
     z-index: 125;
   }
+  .o-nas:active{
+    color: #101010;
+    transition: 0.5s;
+  }
   .o-nas:hover{
     text-decoration: underline;
   }
@@ -144,6 +148,10 @@
     white-space: nowrap;
     z-index: 126;
   }
+  .magaziny:active{
+    color: #101010;
+    transition: 0.5s;
+  }
   .magaziny:hover{
     text-decoration: underline;
   }
@@ -161,6 +169,10 @@
     text-decoration: none;
     white-space: nowrap;
     z-index: 127;
+  }
+  .akcii:active{
+    color: #101010;
+    transition: 0.5s;
   }
   .akcii:hover{
     text-decoration: underline;
@@ -180,6 +192,10 @@
     white-space: nowrap;
     z-index: 128;
   }
+  .klub-somelie:active{
+    color: #101010;
+    transition: 0.5s;
+  }
   .klub-somelie:hover{
     text-decoration: underline;
   }
@@ -198,6 +214,10 @@
     white-space: nowrap;
     z-index: 129;
   }
+  .fotootchety:active{
+    color: #101010;
+    transition: 0.5s;
+  }
   .fotootchety:hover{
     text-decoration: underline;
   }
@@ -215,6 +235,10 @@
     text-decoration: none;
     white-space: nowrap;
     z-index: 130;
+  }
+  .partneram:active{
+    color: #101010;
+    transition: 0.5s;
   }
   .partneram:hover{
     text-decoration: underline;
@@ -297,6 +321,16 @@
     border: none;
     z-index: 116;
     border-radius: calc(5 * var(--rpx));
+  }
+  .basic-button:active{
+    background-color: #d16c6c ;
+    width: calc(115 * var(--rpx));
+    height: calc(41 * var(--rpx));
+    transition: 0.5s;
+  }
+  .basic-button:hover{
+    background-color: #fbd7d7 ;
+    transition: 0.5s;
   }
   .icons-menu {
     flex-shrink: 0;
@@ -409,6 +443,17 @@
     z-index: 137;
     border-radius: calc(5 * var(--rpx));
   }
+  .basic-button-2:active{
+    border: none;
+    width: calc(124 * var(--rpx));
+    height: calc(41 * var(--rpx));
+    transition: 0.5s;
+  }
+  .basic-button-2:hover{
+    background-color: #ffeeee;
+    border: none;
+    transition: 0.5s;
+  }
   .icons-user {
     flex-shrink: 0;
     position: relative;
@@ -451,6 +496,17 @@
     border: calc(1 * var(--rpx)) solid #eaeaea;
     z-index: 141;
     border-radius: calc(5 * var(--rpx));
+  }
+  .basic-button-3:active{
+    border: none;
+    width: calc(120 * var(--rpx));
+    height: calc(41 * var(--rpx));
+    transition: 0.5s;
+  }
+  .basic-button-3:hover{
+    background-color: #ffeeee;
+    border: none;
+    transition: 0.5s;
   }
   .icons-shopping-cart {
     flex-shrink: 0;
@@ -497,6 +553,14 @@
     width: calc(74 * var(--rpx));
     z-index: 148;
   }
+  .page-name:active{
+    color: #101010;
+    transition: 0.5s;
+  }
+  .breadcrumb-item:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+  }
   .page-name {
     flex-shrink: 0;
     flex-basis: auto;
@@ -531,6 +595,14 @@
     position: relative;
     width: calc(130 * var(--rpx));
     z-index: 151;
+  }
+  .page-name-6:active{
+    color: #101010;
+    transition: 0.5s;
+  }
+  .breadcrumb-item-5:hover{
+    text-decoration: underline;
+    transition: 0.5s;
   }
   .breadcrumb-item-last {
     display: flex;
@@ -803,6 +875,15 @@
     z-index: 68;
     border-radius: calc(10 * var(--rpx));
   }
+  .frame-d:active{
+    width: calc(269 * var(--rpx));
+    height: calc(46 * var(--rpx));
+    transition: 0.5s;
+  }
+  .frame-d:hover{
+    background-color: #d16c6c;
+    transition: 0.3s;
+  }
   .oformit-zakaz {
     flex-shrink: 0;
     flex-basis: auto;
@@ -828,7 +909,7 @@
     z-index: 1;
     border-radius: calc(10 * var(--rpx));
   }
-  .contacts {
+  .contacts-heading {
     display: block;
     position: relative;
     height: calc(32 * var(--rpx));
@@ -1273,6 +1354,15 @@
     text-decoration: none;
     z-index: 109;
   }
+  .show-all:active{
+    text-decoration: underline;
+    color: #101010;
+    transition: 0.5s;
+  }
+  .show:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+  }
   .show-all {
     flex-shrink: 0;
     flex-basis: auto;
@@ -1387,6 +1477,16 @@
     border-radius: calc(10 * var(--rpx));
     cursor: pointer;
     z-index: 15;
+  }
+  .ask-button:active {
+    width: calc(173 * var(--rpx));
+    height: calc(45 * var(--rpx));
+    background-color: #997070;
+    transition: 0.5s;
+  }
+  .ask-button:hover {
+    background-color: #696565;
+    transition: 0.5s;
   }
   .icons-question {
     position: absolute;
@@ -2049,6 +2149,10 @@
     white-space: nowrap;
     z-index: 62;
   }
+  .privacy-policy:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+  }
   .user-agreement {
     flex-shrink: 0;
     flex-basis: auto;
@@ -2063,5 +2167,9 @@
     text-decoration: none;
     white-space: nowrap;
     z-index: 63;
+  }
+  .user-agreement:hover{
+    text-decoration: underline;
+    transition: 0.5s;
   }
   
